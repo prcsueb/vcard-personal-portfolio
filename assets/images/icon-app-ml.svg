@@ -1,0 +1,42 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background layer -->
+  <path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd" d="M21 3C11.506 3 3 11.506 3 21C3 30.494 11.506 39 21 39C30.494 39 39 30.494 39 21C39 11.506 30.494 3 21 3Z" fill="url(#bg_gradient)"/>
+  
+  <!-- Neural connections -->
+  <path d="M10 14L21 10L32 14M10 21L21 21L32 21M10 28L21 32L32 28" stroke="url(#connection_gradient)" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Input layer nodes -->
+  <circle cx="10" cy="14" r="3" fill="url(#node_gradient)"/>
+  <circle cx="10" cy="21" r="3" fill="url(#node_gradient)"/>
+  <circle cx="10" cy="28" r="3" fill="url(#node_gradient)"/>
+  
+  <!-- Hidden layer nodes -->
+  <circle cx="21" cy="10" r="4" fill="url(#node_gradient)"/>
+  <circle cx="21" cy="21" r="4" fill="url(#node_gradient)"/>
+  <circle cx="21" cy="32" r="4" fill="url(#node_gradient)"/>
+  
+  <!-- Output layer nodes -->
+  <circle cx="32" cy="14" r="3" fill="url(#node_gradient)"/>
+  <circle cx="32" cy="21" r="3" fill="url(#node_gradient)"/>
+  <circle cx="32" cy="28" r="3" fill="url(#node_gradient)"/>
+  
+  <!-- Central processor accent -->
+  <path d="M21 15L27 21L21 27L15 21L21 15Z" stroke="url(#connection_gradient)" stroke-width="1.5" fill-opacity="0.2" fill="url(#node_gradient)"/>
+
+  <defs>
+    <linearGradient id="bg_gradient" x1="3" y1="3" x2="39" y2="39" gradientUnits="userSpaceOnUse">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+    
+    <linearGradient id="node_gradient" x1="10" y1="10" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0.3" stop-color="#FFDB6E"/>
+      <stop offset="0.9" stop-color="#FFBC5E"/>
+    </linearGradient>
+    
+    <linearGradient id="connection_gradient" x1="10" y1="14" x2="32" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="0.75" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>

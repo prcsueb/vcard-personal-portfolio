@@ -1,0 +1,47 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fractal Browser Framework -->
+  <path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd" d="M9 9H33V33H9V9ZM12 18V24H18V18H12ZM24 18H30V24H24V18Z" fill="url(#framework_grad)"/>
+  
+  <!-- Dynamic Code Core -->
+  <path d="M21 12L24 15L21 18L18 15L21 12Z" stroke="url(#core_grad)" stroke-width="1.5" fill-opacity="0.1"/>
+  <path d="M18 24L21 27L24 24L21 21L18 24Z" stroke="url(#core_grad)" stroke-width="1.5" fill-opacity="0.1"/>
+  
+  <!-- Responsive Flow -->
+  <path d="M12 12L15 15M30 12L27 15M12 30L15 27M30 30L27 27" stroke="url(#flow_grad)" stroke-width="1.2" stroke-linecap="round"/>
+  
+  <!-- Particle Network -->
+  <circle cx="21" cy="15" r="1.2" fill="url(#particle_grad)"/>
+  <circle cx="15" cy="21" r="1.2" fill="url(#particle_grad)"/>
+  <circle cx="21" cy="27" r="1.2" fill="url(#particle_grad)"/>
+  <circle cx="27" cy="21" r="1.2" fill="url(#particle_grad)"/>
+  
+  <!-- Adaptive Grid -->
+  <path d="M21 12V30M12 21H30" stroke="url(#grid_grad)" stroke-width="0.8" stroke-opacity="0.3"/>
+
+  <defs>
+    <linearGradient id="framework_grad" x1="9" y1="9" x2="33" y2="33">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+    
+    <linearGradient id="core_grad" x1="18" y1="12" x2="24" y2="27">
+      <stop offset="0.3" stop-color="#FFDB6E"/>
+      <stop offset="0.9" stop-color="#FFBC5E"/>
+    </linearGradient>
+    
+    <linearGradient id="flow_grad" x1="12" y1="12" x2="30" y2="30">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="0.75" stop-color="#FFBC5E"/>
+    </linearGradient>
+    
+    <linearGradient id="particle_grad" x1="15" y1="15" x2="27" y2="27">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="0.75" stop-color="#FFBC5E"/>
+    </linearGradient>
+    
+    <linearGradient id="grid_grad" x1="12" y1="12" x2="30" y2="30">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="0.75" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>

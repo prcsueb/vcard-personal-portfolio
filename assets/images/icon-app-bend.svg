@@ -1,0 +1,40 @@
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Server Rack Structure -->
+  <path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd" d="M13 6H29V36H13V6ZM16 9H26V33H16V9Z" fill="url(#rack_grad)"/>
+  
+  <!-- Server Units -->
+  <rect x="16" y="12" width="10" height="4" rx="1" fill="url(#server_grad)"/>
+  <rect x="16" y="19" width="10" height="4" rx="1" fill="url(#server_grad)"/>
+  <rect x="16" y="26" width="10" height="4" rx="1" fill="url(#server_grad)"/>
+  
+  <!-- Processing Core -->
+  <path d="M21 8L24 11H18L21 8Z" fill="url(#core_grad)"/>
+  <circle cx="21" cy="14" r="1.5" fill="url(#core_grad)"/>
+  <circle cx="21" cy="21" r="1.5" fill="url(#core_grad)"/>
+  <circle cx="21" cy="28" r="1.5" fill="url(#core_grad)"/>
+  
+  <!-- Data Flow -->
+  <path d="M9 21H13M29 21H33M21 33V37" stroke="url(#flow_grad)" stroke-width="1.5" stroke-linecap="round"/>
+
+  <defs>
+    <linearGradient id="rack_grad" x1="13" y1="6" x2="29" y2="36">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+    
+    <linearGradient id="server_grad" x1="16" y1="12" x2="26" y2="30">
+      <stop offset="0.3" stop-color="#FFDB6E"/>
+      <stop offset="0.9" stop-color="#FFBC5E"/>
+    </linearGradient>
+    
+    <linearGradient id="core_grad" x1="18" y1="8" x2="24" y2="28">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="0.75" stop-color="#FFBC5E"/>
+    </linearGradient>
+    
+    <linearGradient id="flow_grad" x1="9" y1="21" x2="33" y2="21">
+      <stop offset="0.25" stop-color="#FFDB6E"/>
+      <stop offset="0.75" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>
